@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "MyProject_Torrenueva",
-    "slug": "MyProject_Torrenueva",
+    "name": "Torrenueva Desie",
+    "slug": "Torrenueva_Desie",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pic2.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/pic2.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/pic2.jpg",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.Torrenueva_Desie"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/pic2.jpg"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6c6898a0-7baa-45af-a7b0-e4c92e53ba3b"
+      }
     }
   }
 }
